@@ -18,3 +18,6 @@ triple quotes are used for multi line comments and # is used for singlr line com
 # backslash followed by a single character without a space \n \t
 print('Hey "Mikey", Let\'s\t go')
 print("Hey \"Mikey\", Let's\n go")
+type=10
+print(type)
+print(type(10))
