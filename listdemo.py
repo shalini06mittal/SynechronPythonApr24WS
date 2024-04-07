@@ -59,10 +59,4 @@ print(sorted(names, key=len))
 
 print(sorted(names, key=str.lower))
 
-val = 20
-list1 = [5, 20, 15, 20, 25, 50, 20]
-res = []
-for l in list1:
-    if l not in res:
-        res.append(l)
-print(res)
+
