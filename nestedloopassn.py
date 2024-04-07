@@ -8,13 +8,13 @@ Factors of 12 - 1 2 3 4 6 12
 .. So on for 5 numbers
 '''
 
-for i in range(5):
-    no = int(input('enter a no'))
-    print('factors of',no,'-',end=' ')
-    for j in range(1,no+1):
-        if no%j==0:
-            print(j, end=' ')
-    print()
+# for i in range(5):
+#     no = int(input('enter a no'))
+#     print('factors of',no,'-',end=' ')
+#     for j in range(1,no+1):
+#         if no%j==0:
+#             print(j, end=' ')
+#     print()
 '''
 Assume for that day park admits only 50 customers. 
 Modify the below code to provide for booking until the tickets are exhausted.
@@ -36,7 +36,10 @@ while availableTickets>0:
             count = int(input('enter number of tickets'))
        else:
            ans ='n'
+    if ans == 'n':
+        continue
     customerCount+=1
+    availableTickets-=count
     total = 0
     for c in range(1, count+1):
         age= int(input('enter age for customer '+str(c)))
