@@ -1,4 +1,7 @@
 msg='Welcome Guest'
+# msg[0] = 'M'
+print('Shalini' in msg)
+print('guest' in msg)
 print(len(msg))
 print(msg.count('e'))
 print(msg.endswith('Guest'))
@@ -47,3 +50,9 @@ if index!=-1:
     dotindex = fileloc.index('.')
     print('filename', fileloc[index+1: dotindex])
     print('extension', fileloc[dotindex+1:])
+
+#operations
+s1="hello"
+s2="welcome"
+print(s1+s2)
+print(s1*5)
