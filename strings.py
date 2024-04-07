@@ -31,8 +31,19 @@ print('1',msg[len(msg)::-1])
 # print(msg[len(msg)])
 
 # separate the name and domain name
+
 email='shalini@gmail.com'
+
+index = email.index('@')
+print(email[0:index])
+print(email[index:])
 
 # the format of file location does not change. 
 #from the file location print the name and extension of image seaparate.
 fileloc = 'file://C:/images/pic1.jpg'
+# print(fileloc.rindex('@'))
+index = fileloc.rfind('/')
+if index!=-1:
+    dotindex = fileloc.index('.')
+    print('filename', fileloc[index+1: dotindex])
+    print('extension', fileloc[dotindex+1:])
