@@ -41,3 +41,5 @@ while time_up > time_down or ( time_down != 10 and time_down != 12 and time_down
 
 cost = Ask * 2 * 25
 print('totol',cost)
+
+
