@@ -23,31 +23,6 @@ find if a number entered is prime number or not.
 
 ask the user to enter a 2-digit 
 
-An electric mountain railway makes a return trips every day. 
-In a trip the train goes up the mountain and back down. 
-
-The train leaves from the foot of the mountain at 09:00, 11:00, 13:00 and 15:00.
-The train returns from the top of the mountain at 10:00, 12:00, 14:00 and 16:00. 
-
-Train can accomodate 200 passengers.
-
-Passengers can only purchase a return ticket; all tickets must be purchased on the day of travel. 
-The cost is $25 for the journey up and $25 for the journey down. 
-
-Passengers must book their return train journey, as well as the departure train journey, when they
-purchase their ticket.
-
-Passengers can return on the next train down the mountain or a later train.
-
-Task: Purchasing tickets.
-1. Ask for number of tickets to purchase and if available go ahead asking time slots to book.
-2. Ask user to enter departure time until they enter the right time as the time slots available 
-3. Ask user to enter return time until they enter the right time as the time slots available and it should be 
-after the departure time.
-4.  Calculate total and print for return journey for 1 passenger 
-
-
-
 Assume there are limited tickets for a day say 20.
 Keep taking input for different customers until no tickets are left
 WAP for a booking system of the adventurous park. 
