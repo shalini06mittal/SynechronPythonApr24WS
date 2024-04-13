@@ -1,5 +1,5 @@
 import csv
-# file = open('employees.csv', 'w')
+# file = open('employees.csv',newline='', 'w')
 # writer = csv.writer(file)
 # writer.writerow(['Id','Name','Phone'])
 # writer.writerow(['1','shalini','876879797'])
@@ -13,7 +13,28 @@ import csv
 #     writer = csv.writer(file)
 #     writer.writerow(['7','nisha','5768768'])
 
+# header
 with open('employees.csv','r') as file:
     reader = csv.reader(file)
+    header = next(reader)
+    print(header)
+    print()
+    for row in reader:
+        print(row)
+print('reading invoice')
+with open('invoice.csv','r') as file:
+    reader = csv.reader(file, delimiter=':')
+    header = next(reader)
+    print(header)
+    print()
+    for row in reader:
+        print(row)
+
+print('reading invoice with dict')
+with open('invoice.csv','r') as file:
+    reader = csv.DictReader(file, delimiter=':')
+    header = next(reader)
+    print(header)
+    print()
     for row in reader:
         print(row)
