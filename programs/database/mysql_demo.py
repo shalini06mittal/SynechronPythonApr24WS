@@ -24,7 +24,9 @@ try:
             print('Connected to MySQL database')
     cursor = conn.cursor()
     #cursor.execute(createTable())
-    cursor.execute(insertEmployee(),('riya','1212121212')) 
+    #cursor.execute(insertEmployee(),('shalini','1212121212')) 
+    cursor.execute('delete from employee where id=%s', (3,))
+    
     conn.commit()
     #cursor.execute('create database synechron')
 except Exception as e:
