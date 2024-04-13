@@ -33,6 +33,17 @@ for d in data:
 print(vowelsindata)
 
 vowelsindata = [d for d in data if d in vowels]
+
+def isVowel(ch):
+    return ch in vowels
+
+def calculate(v):
+    v = ord(v)#101
+    if v%2==0:
+        return v**2
+    else:
+        return v**3
+vowelsindata = [calculate(d) for d in data if isVowel(d)]
 print(vowelsindata)
 
 prices = [20, 30, 40, 50, 60]
