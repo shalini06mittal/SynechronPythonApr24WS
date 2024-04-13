@@ -1,6 +1,8 @@
 person = '{"fname":"shalini","languages":["english","hindi"],"address":[{"city":"C1","street":{"street1":"some street"}},{"city":"C2"}]}'
 
 import json
+
+
 person_dict = json.loads(person)
 
 print(person_dict)
