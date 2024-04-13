@@ -72,3 +72,4 @@ if ( leapYear %4==0 and (leapYear %100 !=0 or (leapYear %100==0 and leapYear %40
     print('leap year')
 else:
     print('not leap year')
+

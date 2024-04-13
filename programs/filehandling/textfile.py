@@ -17,3 +17,9 @@ print(type(data))
 f2.close()
 print(data)
 print([line.strip().upper() for line in data])
+'''
+create a file email.txt to store list of 5 emails taken as input from the user
+Create another file gmail.txt to store all the emails that end with gmail.com
+'''
+
+import functions
