@@ -1,7 +1,18 @@
 {
-  "fname": "shalini",
-  "languages": [
-    "english",
-    "hindi"
-  ]
+    "fname": "shalini",
+    "languages": [
+        "english",
+        "hindi"
+    ],
+    "address": [
+        {
+            "city": "C1",
+            "street": {
+                "street1": "some street"
+            }
+        },
+        {
+            "city": "C2"
+        }
+    ]
 }
