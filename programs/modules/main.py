@@ -15,3 +15,7 @@ from app import validate as val, maxofnos as mn, country
 
 # import app
 
+import sys
+sys.path.append('./programs/basic/')
+import inputdemo
+import operators
