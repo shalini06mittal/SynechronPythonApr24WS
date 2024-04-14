@@ -31,5 +31,3 @@ print()
 print(df1[ (df1['Exam']=='Semester 1') & (df1['Score'] >70) ])
 print(df1.columns)
 print(df1.values)
-
-
