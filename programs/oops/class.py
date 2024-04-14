@@ -93,3 +93,4 @@ class Academic(Book):
     
 n1 = Novel('HTML',100,100)
 print(n1)
+
