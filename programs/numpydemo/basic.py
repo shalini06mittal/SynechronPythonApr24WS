@@ -31,8 +31,9 @@ print(rmarr)
 
 rgarr = np.arange(1,100,5)
 print(rgarr)
-print(rgarr.reshape((2,10)))
-
+rgarr = rgarr.reshape((5,4))
+print(rgarr)
+print(rgarr[1,0])
 idarr = np.identity(3)
 print(idarr)
 emarr = np.empty((3,2))
